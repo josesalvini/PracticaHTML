@@ -1,0 +1,116 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    width: 960px;
+}
+
+h1, h2,h3,p,.menuCarta  {
+    color: #5c5c5c;
+}
+
+main {
+    overflow: hidden;
+}
+
+header {
+    /*background-color: aqua;*/
+    border-bottom: 1px solid #979797;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+nav {
+    /*background-color: burlywood;*/
+    /*width: 300px;*/
+    width: 20%;
+    box-sizing: border-box;
+}
+
+nav, article {
+    padding: 15px;
+}
+
+main {
+    margin-top: 30px;
+}
+
+#carta {
+    border-left: 1px solid #979797;
+}
+
+.class-left {
+    float: left;
+}
+
+.class-right {
+    float: right;
+}
+
+article {
+  /*background-color: coral;*/
+  /*width: 610px;*/
+  width: 80%;
+  box-sizing: border-box;
+}
+
+footer {
+    background-color: #d8d8d8;
+    overflow: hidden;
+    padding: 20px;
+}
+
+#links {
+    float: right;
+    margin-right: 30px;
+}
+
+.linkEnlaces{
+    list-style:none;
+    font-weight: bold;
+
+}
+
+.menuCarta {
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.subrayado {
+    text-decoration: none;
+    color: white;
+}
+
+a:link, a:visited, a:hover{
+    text-decoration: none;
+}
+
+.tipoMenu {
+    padding-left: 20px;
+}
+.textPlato {
+    padding-left: 40px;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+section {
+    overflow: hidden;
+}
+
+#imgPlato {
+    border: 3px solid #e6e6e6;
+}
+
+.botonForm {
+    background-color: #E0A700;
+    color: white;
+}
+
+textarea {
+    resize: none;
+}
