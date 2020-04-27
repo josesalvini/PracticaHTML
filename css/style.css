@@ -2,7 +2,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
-body {
+#main {
     width: 960px;
 }
 
@@ -70,7 +70,6 @@ footer {
 .linkEnlaces{
     list-style:none;
     font-weight: bold;
-
 }
 
 .menuCarta {
@@ -113,4 +112,45 @@ section {
 
 textarea {
     resize: none;
+}
+
+.pregunta {
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+}
+
+#formContacto,#title {
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#formContacto {
+    border: 2px solid #E0A700;
+    padding-bottom: 30px;
+}
+
+
+#contacto {
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    text-align: center;
+}
+
+.botonForm {
+    width: 300px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.botonForm:hover {
+    background-color: white;
+    color: #E0A700;
+    border: 1px solid #E0A700;
 }
