@@ -9,60 +9,62 @@
 </head>
 <body id="contacto">
     <div id="title"><h1>Formulario de contacto</h1></div>
-    <div id="formContacto">
-        <p class="pregunta">¿De dónde sos?</p>
-        <seLect name="provincia">
-            <option value="OP">Seleccione una opción</option>
-            <option value="CB">Córdoba</option>
-            <option value="BA">Buenos Aires</option>
-            <option value="CA">Catamarca</option>
-            <option value="CH">Chaco</option>
-            <option value="CT">Chubut</option>
-            <option value="CR">Corrientes</option>
-            <option value="ER">Entre Ríos</option>
-            <option value="FO">Formosa</option>
-            <option value="JY">Jujuy</option>
-            <option value="LP">La Pampa</option>
-            <option value="LR">La Rioja</option>
-            <option value="MZ">Mendoza</option>
-            <option value="MI">Misiones</option>
-            <option value="NQ">Neuquén</option>
-            <option value="JY">Río Negro</option>
-            <option value="SA">Salta</option>
-            <option value="SJ">San Juan</option>
-            <option value="SL">San Luis</option>
-            <option value="SC">Santa Cruz</option>
-            <option value="SF">Santa Fe</option>
-            <option value="SE">Santiago del Estero</option>
-            <option value="TF">Tierra del Fuego</option>
-            <option value="TU">Tucumán</option>
-        </seLect>
-        <p class="pregunta">¿Que te parecio la iluminación del ambiente?</p>
-            <input type="checkbox" name="ambiente" value="acorde">Muy acorde<br>
-            <input type="checkbox" name="ambiente" value="buena">Buena, pero podría mejorar<br>
-            <input type="checkbox" name="ambiente" value="mala">Mala
-        <p class="pregunta">¿Qué tipo de plato fue el que más te gusto?</p>
-            <input type="checkbox" name="plato" value="entrada">Entrada<br>
-            <input type="checkbox" name="plato" value="plato-principal">Plato principal<br>
-            <input type="checkbox" name="plato" value="postre">Postre<br>
-            <input type="checkbox" name="plato" value="otros">Otros
-        <p class="pregunta">¿Recomendarías el lugar?</p>
-            <input type="radio" name="recomendacion" value="S" checked>Sí
-            <input type="radio" name="recomendacion" value="N">No
-        <p class="pregunta">¿Porqué?</p>
-        <textarea name="comentario" id="comentario" cols="70" rows="8">
-        </textarea>
-        <p class="pregunta">Dejanos tus datos y nos pondremos en contacto con vos</p>
-        <p>
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Tu nombre">
-        </p>
-        <p>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required placeholder="Tu email">
-        </p>
-        <button class="botonForm" type="submit">Enviar</button>
-        <button class="botonForm" type="reset">Resetear</button>
-    </div>
+    <form method="post" action="./success.html">
+        <div id="formContacto">
+            <p class="pregunta">¿De dónde sos?</p>
+            <seLect name="provincia">
+                <option value="OP">Seleccione una opción</option>
+                <option value="CB">Córdoba</option>
+                <option value="BA">Buenos Aires</option>
+                <option value="CA">Catamarca</option>
+                <option value="CH">Chaco</option>
+                <option value="CT">Chubut</option>
+                <option value="CR">Corrientes</option>
+                <option value="ER">Entre Ríos</option>
+                <option value="FO">Formosa</option>
+                <option value="JY">Jujuy</option>
+                <option value="LP">La Pampa</option>
+                <option value="LR">La Rioja</option>
+                <option value="MZ">Mendoza</option>
+                <option value="MI">Misiones</option>
+                <option value="NQ">Neuquén</option>
+                <option value="JY">Río Negro</option>
+                <option value="SA">Salta</option>
+                <option value="SJ">San Juan</option>
+                <option value="SL">San Luis</option>
+                <option value="SC">Santa Cruz</option>
+                <option value="SF">Santa Fe</option>
+                <option value="SE">Santiago del Estero</option>
+                <option value="TF">Tierra del Fuego</option>
+                <option value="TU">Tucumán</option>
+            </seLect>
+            <p class="pregunta">¿Que te parecio la iluminación del ambiente?</p>
+                <input type="checkbox" name="ambiente" value="acorde">Muy acorde<br>
+                <input type="checkbox" name="ambiente" value="buena">Buena, pero podría mejorar<br>
+                <input type="checkbox" name="ambiente" value="mala">Mala
+            <p class="pregunta">¿Qué tipo de plato fue el que más te gusto?</p>
+                <input type="checkbox" name="plato" value="entrada">Entrada<br>
+                <input type="checkbox" name="plato" value="plato-principal">Plato principal<br>
+                <input type="checkbox" name="plato" value="postre">Postre<br>
+                <input type="checkbox" name="plato" value="otros">Otros
+            <p class="pregunta">¿Recomendarías el lugar?</p>
+                <input type="radio" name="recomendacion" value="S" checked>Sí
+                <input type="radio" name="recomendacion" value="N">No
+            <p class="pregunta">¿Porqué?</p>
+            <textarea name="comentario" id="comentario" cols="70" rows="8">
+            </textarea>
+            <p class="pregunta">Dejanos tus datos y nos pondremos en contacto con vos</p>
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Tu nombre">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="Tu email">
+            </p>
+            <button class="botonForm" type="submit">Enviar</button>
+            <button class="botonForm" type="reset">Resetear</button>
+        </div>
+    </form>
 </body>
 </html>
