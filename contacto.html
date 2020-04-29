@@ -9,7 +9,7 @@
 </head>
 <body id="contacto">
     <div id="title"><h1>Formulario de contacto</h1></div>
-    <form method="post" action="./success.html">
+    <form method="GET" action="success.html">
         <div id="formContacto">
             <p class="pregunta">¿De dónde sos?</p>
             <seLect name="provincia">
@@ -62,8 +62,8 @@
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email" required placeholder="Tu email">
             </p>
-            <button class="botonForm" type="submit">Enviar</button>
-            <button class="botonForm" type="reset">Resetear</button>
+            <button class="botonForm" type="submit" value="Submit">Enviar</button>
+            <button class="botonForm" type="reset" value="Reset">Resetear</button>
         </div>
     </form>
 </body>
